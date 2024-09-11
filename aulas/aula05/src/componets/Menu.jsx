@@ -11,7 +11,7 @@ function Menu(props) {
       <ul>
         {opcoes.map((opcao, index) => (
           <li key={index}>
-            <Link rota={opcao.rota} texto={opcao.texto} />
+            <Link navegaPara={props.navegaPara} rota={opcao.rota} texto={opcao.texto} />
           </li>
         ))}
       </ul>

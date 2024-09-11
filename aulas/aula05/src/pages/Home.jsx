@@ -4,7 +4,7 @@ function Home(props) {
   return (
     <>
       <h1>Pagina inicial</h1>
-      <Menu />
+      <Menu navegaPara={props.navegaPara} />
     </>
   );
 }
