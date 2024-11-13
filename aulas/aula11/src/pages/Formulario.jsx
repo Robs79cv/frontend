@@ -5,7 +5,7 @@ import InputSenha from '../componets/inputSenha';
 import Botao from '../componets/Botao';
 
 function Formulario(props){
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm({values: props.valores});
     
     return <form onSubmit={handleSubmit(props.onEnviar)}>
         <InputEmail register={register} error={errors.email} />

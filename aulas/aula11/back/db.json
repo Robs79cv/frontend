@@ -4,6 +4,23 @@
       "email": "jose@iesb.br",
       "password": "$2a$10$R7v7H3zsa6y1bKEFwxkPKedSR.rvs8kKRA8TxbjEBaZOK5owFdrAe",
       "id": 1
+    },
+    {
+      "email": "robson@nucleos.med.br",
+      "password": "$2a$10$MFO7s4d5F8N0QwQUtAEiJeXK5DlLOmhMQLs267yoyNMgdzqviPPRS",
+      "id": 2
+    },
+    {
+      "email": "carlos@iesb.br",
+      "password": "$2a$10$Ia1yPuzrppDGEQX/eT5HTuW9tzaS0vJdLAHVvkZJ0qld8gGG2wNm.",
+      "perfil": "aluno",
+      "id": 3
+    },
+    {
+      "email": "maria@iesb.br",
+      "password": "$2a$10$rRTZdp0ePo7XiYrDLE/ctOrV8ZI0g.Rgf3F.zS49dCVmqmTp7wixa",
+      "perfil": "aluno",
+      "id": 4
     }
   ]
 }
